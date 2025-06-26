@@ -12,6 +12,7 @@ public class Problem_2 {
         scan.close();
         if(a < 0){
             System.out.println("enter the positive number");
+            a = scan.nextInt();
         }
         int num = 1;
         for(int i = 1; i <= a; i++){
